@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .column {
+      flex: 1;
+      margin: 15px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .column:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 50vh;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .title {
+      color: #777;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div>
+  <center><h1><marquee direction="left" scrollamount="30" bgcolor="lightgreen"height="50" >COMMUNITY QUESTION ANSWERING PLATFORM PROJECT</marquee></h1></center>
+  </div>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\raqmadevi (2).jpg" alt="Image 1" height="500" width="500">
+        <div class="container">
+            <h2>MAJETI RAMADEVI</h2>
+            <p>ROLE : FRONT-END</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\vau (2).jpg" alt="Image 2" height="500" width="500">
+        <div class="container">
+            <h2>VASUNDHARA</h2>
+            <p>ROLE : FRONT-END</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\u pavani.jpg" alt="Image 3" height="500" width="500">
+        <div class="container">
+            <h2>UPPALAPATI PAVANI LAKSHMI DURGA</h2>
+            <p>ROLE : CONNECTION</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\akshutha.jpg" alt="Image 4" height="500" width="500">
+        <div class="container">
+        <h2>MADALA AKSHITHA</h2>
+        <p>ROLE : CONNECTION</p>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\PUJITHA.jpg" alt="Image 5" height="500" width="500">
+        <div class="container">
+        <h2>PUJITHA</h2>
+        <p>ROLE : COLLECTING DATA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\Keerthi (3).jpg" alt="Image 6" height="500" width="500">
+        <div class="container">
+            <h2>BAKKA KEERTHI</h2>
+            <p>ROLE : COLLECTING DATA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\Vijay niramala (2).jpg" alt="Image 7" height="500" width="500">
+        <div class="container">
+          <h2>BUDUGU VIJAYA NIRMALA</h2>
+          <p>ROLE: BACKEND</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="C:\Users\ramad\OneDrive\Pictures\img1 (2).jpg" alt="Image 8" height="500" width="500">
+        <div class="container">
+          <h2>TIUMANI PRAVALLIKA</h2>
+          <p>ROLE: BACKEND</p>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
